@@ -13,7 +13,8 @@ public class HotelsStore {
     private static final int BOOKINGS_LIST_SIZE = 10;
     //HOTEL_CHAIN_ID is set by a const temporarily to facilitate program testing
     private static final Long HOTEL_CHAIN_ID = 1L;
-    private static final Long ADMIN_LIST_SIZE = 3L;
+    private static final Long ADMIN_LIST_SIZE = 2L;
+    private static final Long GUEST_LIST_SIZE = 4L;
     //CLIENT_ID is set by a const temporarily
     private static final int CLIENT_ID = 1;
 
@@ -22,7 +23,9 @@ public class HotelsStore {
     private List<Room> rooms = new ArrayList<>();
     private List<Staff> staff = new ArrayList<>();
     private List<Booking> bookings = new ArrayList<>();
-    private List<UserAdmin> admins = new ArrayList<>();
+    //private List<UserAdmin> admins = new ArrayList<>();
+    //private List<UserGuest> guests = new ArrayList<>();
+    private List<User> users = new ArrayList<>();
 
     public static HotelsStore getInstance(){
         if(instance == null){
@@ -37,6 +40,7 @@ public class HotelsStore {
         populateBookings();
         populateStaff();
         populateAdmins();
+        populateGuests();
     }
 
     public List<Hotel> getHotels(){return hotels;}
@@ -57,8 +61,15 @@ public class HotelsStore {
     }
     private void populateAdmins(){
         for (int i=1;i<=ADMIN_LIST_SIZE;i++){
-            UserAdmin admin = new UserAdmin((long)i,"admin"+i,"E-mail"+i,"Pass"+i,"Job"+i);
-            admins.add(admin);
+            User admin = new UserAdmin((long)i,"admin"+i,"E-mail"+i,"Pass"+i,"Job"+i);
+            users.add(admin);
+        }
+    }
+
+    private void populateGuests(){
+        for (int i=1;i<=ADMIN_LIST_SIZE;i++){
+            User guest = new UserGuest((long)i,"admin"+i,"E-mail"+i,"Pass"+i,"Name Guest "+i);
+            users.add(guest);
         }
     }
     private void populateRooms(){
@@ -89,7 +100,11 @@ public class HotelsStore {
         return staff.remove(employee);
     }
 
-    public List<UserAdmin> getAdmins() {
-        return admins;
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public boolean userExists(User newUser) {
+        return users.contains(newUser) ? true : false;
     }
 }

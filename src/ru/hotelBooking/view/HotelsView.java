@@ -41,8 +41,17 @@ public class HotelsView {
         }
     }
 
-    public void showAdmins() {
+    public void showUsers() {
         System.out.println("------Admins------");
-        hotelsService.getAdmins().forEach(System.out::println);
+        hotelsService.getUsers().forEach(System.out::println);
+    }
+
+    public void login(String userLogin, String userPassword) {
+        if(hotelsService.loginIsSuccesful(userLogin,userPassword)){
+            System.out.println("You succesfully login");
+        }
+        else{
+            System.out.println("Something went wrong");
+        }
     }
 }

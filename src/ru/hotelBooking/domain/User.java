@@ -1,20 +1,27 @@
 package ru.hotelBooking.domain;
 
-public abstract class AbstractUser {
+import java.util.Objects;
+
+public class User {
 
     private Long id;
     private String login;
     private String password;
     private String email;
 
-    public AbstractUser(Long id, String login, String password, String email) {
+    public User(Long id, String login, String password, String email) {
         this.id = id;
         this.login = login;
         this.password = password;
         this.email = email;
     }
 
-    public AbstractUser(){}
+    public User(){}
+
+    public User(String userLogin, String userPassword) {
+        this.login = userLogin;
+        this.password = userPassword;
+    }
 
     public Long getId() {
         return id;
@@ -55,5 +62,20 @@ public abstract class AbstractUser {
                 ", login='" + login + '\'' +
                 ", password='" + password + '\'' +
                 ", email='" + email + '\'';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
+        return  Objects.equals(login, user.login) &&
+                Objects.equals(password, user.password);
+
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, login, password, email);
     }
 }

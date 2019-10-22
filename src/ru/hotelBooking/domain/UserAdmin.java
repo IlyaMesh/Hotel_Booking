@@ -1,6 +1,6 @@
 package ru.hotelBooking.domain;
 
-public class UserAdmin extends AbstractUser {
+public class UserAdmin extends User {
 
     //Пусть правами администратора могут обладать разные сотрудники компании
     private String job;

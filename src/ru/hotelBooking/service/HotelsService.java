@@ -1,13 +1,9 @@
 package ru.hotelBooking.service;
 
-import ru.hotelBooking.domain.Booking;
-import ru.hotelBooking.domain.Hotel;
-import ru.hotelBooking.domain.Room;
+import ru.hotelBooking.domain.*;
 import ru.hotelBooking.domain.Staff;
-import ru.hotelBooking.domain.UserAdmin;
 import ru.hotelBooking.persistence.HotelsStore;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -43,6 +39,7 @@ public class HotelsService {
         return hotelsStore.getBookings();
     }
 
+    //перенести в persistance
     public List<Booking> getBookingsById(long roomID) {
         return getBookings().stream()
                 .filter(booking -> booking.getRoom_id() == roomID)
@@ -67,7 +64,13 @@ public class HotelsService {
         return hotelsStore.removeEmployee(employee);
     }
 
-    public List<UserAdmin> getAdmins() {
-        return hotelsStore.getAdmins();
+    public List<User> getUsers() {
+        return hotelsStore.getUsers();
     }
+
+    public boolean loginIsSuccesful(String userLogin, String userPassword) {
+        User newUser = new User(userLogin,userPassword);
+        return hotelsStore.userExists(newUser) ? true : false;
+    }
+
 }
