@@ -40,4 +40,9 @@ public class HotelsView {
             System.out.println(String.format("Employee with id=%d doesn't exist", emplId));
         }
     }
+
+    public void showAdmins() {
+        System.out.println("------Admins------");
+        hotelsService.getAdmins().forEach(System.out::println);
+    }
 }

@@ -1,15 +1,10 @@
 package ru.hotelBooking.persistence;
 
-import ru.hotelBooking.domain.Booking;
-import ru.hotelBooking.domain.Hotel;
-import ru.hotelBooking.domain.Room;
-import ru.hotelBooking.domain.Staff;
+import ru.hotelBooking.domain.*;
 
-import java.awt.print.Book;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class HotelsStore {
     private static final int HOTELS_LIST_SIZE = 10;
@@ -18,6 +13,7 @@ public class HotelsStore {
     private static final int BOOKINGS_LIST_SIZE = 10;
     //HOTEL_CHAIN_ID is set by a const temporarily to facilitate program testing
     private static final Long HOTEL_CHAIN_ID = 1L;
+    private static final Long ADMIN_LIST_SIZE = 3L;
     //CLIENT_ID is set by a const temporarily
     private static final int CLIENT_ID = 1;
 
@@ -26,6 +22,7 @@ public class HotelsStore {
     private List<Room> rooms = new ArrayList<>();
     private List<Staff> staff = new ArrayList<>();
     private List<Booking> bookings = new ArrayList<>();
+    private List<UserAdmin> admins = new ArrayList<>();
 
     public static HotelsStore getInstance(){
         if(instance == null){
@@ -39,6 +36,7 @@ public class HotelsStore {
         populateRooms();
         populateBookings();
         populateStaff();
+        populateAdmins();
     }
 
     public List<Hotel> getHotels(){return hotels;}
@@ -57,7 +55,12 @@ public class HotelsStore {
             hotels.add(hotel);
         }
     }
-
+    private void populateAdmins(){
+        for (int i=1;i<=ADMIN_LIST_SIZE;i++){
+            UserAdmin admin = new UserAdmin((long)i,"admin"+i,"E-mail"+i,"Pass"+i,"Job"+i);
+            admins.add(admin);
+        }
+    }
     private void populateRooms(){
         for (int i=1;i<=ROOMS_LIST_SIZE;i++){
             //5 - is rating
@@ -84,5 +87,9 @@ public class HotelsStore {
 
     public boolean removeEmployee(Staff employee) {
         return staff.remove(employee);
+    }
+
+    public List<UserAdmin> getAdmins() {
+        return admins;
     }
 }

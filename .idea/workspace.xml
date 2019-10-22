@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="" />
+    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel_chain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/AdminView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/AdminView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/AdminMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sqlTest/StockExchangeDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sqlTest/StockExchangeDB.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +48,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

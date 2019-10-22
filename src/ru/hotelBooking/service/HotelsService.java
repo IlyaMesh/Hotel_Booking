@@ -4,6 +4,7 @@ import ru.hotelBooking.domain.Booking;
 import ru.hotelBooking.domain.Hotel;
 import ru.hotelBooking.domain.Room;
 import ru.hotelBooking.domain.Staff;
+import ru.hotelBooking.domain.UserAdmin;
 import ru.hotelBooking.persistence.HotelsStore;
 
 import java.util.ArrayList;
@@ -64,5 +65,9 @@ public class HotelsService {
     public boolean fireTheEmployee(long emplId) {
         Staff employee = new Staff(emplId);
         return hotelsStore.removeEmployee(employee);
+    }
+
+    public List<UserAdmin> getAdmins() {
+        return hotelsStore.getAdmins();
     }
 }

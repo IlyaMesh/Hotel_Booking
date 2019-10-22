@@ -18,8 +18,8 @@ public class MainMenu {
             System.out.println("4. Show room's booking (Enter 4)");
             System.out.println("5 Book a room (Enter 5)");
             System.out.println("6 Fire an employee (Enter 6)");
-
-            System.out.println("7. Exit (Enter 7)");
+            System.out.println("7 Show admin(Enter 7)");
+            System.out.println("8. Exit (Enter 8)");
 
             int menuitem = in.nextInt();
             int hotelId,roomId;
@@ -56,8 +56,10 @@ public class MainMenu {
                     int emplId = in.nextInt();
                     hotelsView.fireTheEmployee(emplId);
                     break;
-
                 case 7:
+                    hotelsView.showAdmins();
+                    break;
+                case 8:
                     System.exit(0);
             }
         }
