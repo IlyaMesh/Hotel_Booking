@@ -4,12 +4,13 @@ import ru.hotelBooking.service.HotelsService;
 
 public class HotelsView {
     private HotelsService hotelsService = new HotelsService();
+    //private UserMenu userMenu = new UserMenu();
 
     public void showHotels(){
         System.out.println("-----Hotels: ------");
         hotelsService.getHotels().forEach(System.out::println);
     }
-    //комнаты стафф и букинги надо показывать в выбранном отеле!
+
     public void showRooms(long hotelID){
         System.out.println(String.format("-----Rooms in Hotel=%d: ------",hotelID));
         hotelsService.getRoomsById(hotelID).forEach(System.out::println);
@@ -46,12 +47,15 @@ public class HotelsView {
         hotelsService.getUsers().forEach(System.out::println);
     }
 
-    public void login(String userLogin, String userPassword) {
-        if(hotelsService.loginIsSuccesful(userLogin,userPassword)){
-            System.out.println("You succesfully login");
-        }
-        else{
-            System.out.println("Something went wrong");
-        }
+    public boolean login(String userLogin, String userPassword) {
+        return hotelsService.loginIsSuccesful(userLogin,userPassword);
+    }
+    public void getInfoAboutCurrentUser(){
+        String login = hotelsService.getUsersLogin();
+        System.out.println(String.format("You login as %s",login));
+    }
+
+    public String getCurrentUserName() {
+         return hotelsService.getUsersLogin();
     }
 }

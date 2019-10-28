@@ -2,7 +2,9 @@ package ru.hotelBooking.persistence;
 
 import ru.hotelBooking.domain.*;
 
+import java.security.Guard;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
@@ -13,7 +15,6 @@ public class HotelsStore {
     private static final int BOOKINGS_LIST_SIZE = 10;
     //HOTEL_CHAIN_ID is set by a const temporarily to facilitate program testing
     private static final Long HOTEL_CHAIN_ID = 1L;
-    private static final Long ADMIN_LIST_SIZE = 2L;
     private static final Long GUEST_LIST_SIZE = 4L;
     //CLIENT_ID is set by a const temporarily
     private static final int CLIENT_ID = 1;
@@ -23,8 +24,6 @@ public class HotelsStore {
     private List<Room> rooms = new ArrayList<>();
     private List<Staff> staff = new ArrayList<>();
     private List<Booking> bookings = new ArrayList<>();
-    //private List<UserAdmin> admins = new ArrayList<>();
-    //private List<UserGuest> guests = new ArrayList<>();
     private List<User> users = new ArrayList<>();
 
     public static HotelsStore getInstance(){
@@ -39,7 +38,6 @@ public class HotelsStore {
         populateRooms();
         populateBookings();
         populateStaff();
-        populateAdmins();
         populateGuests();
     }
 
@@ -59,16 +57,10 @@ public class HotelsStore {
             hotels.add(hotel);
         }
     }
-    private void populateAdmins(){
-        for (int i=1;i<=ADMIN_LIST_SIZE;i++){
-            User admin = new UserAdmin((long)i,"admin"+i,"E-mail"+i,"Pass"+i,"Job"+i);
-            users.add(admin);
-        }
-    }
 
     private void populateGuests(){
-        for (int i=1;i<=ADMIN_LIST_SIZE;i++){
-            User guest = new UserGuest((long)i,"admin"+i,"E-mail"+i,"Pass"+i,"Name Guest "+i);
+        for (int i = 1; i<= GUEST_LIST_SIZE; i++){
+            User guest = new User((long)i,"login"+i,"pass"+i,"Email"+i);
             users.add(guest);
         }
     }
@@ -104,7 +96,14 @@ public class HotelsStore {
         return users;
     }
 
+    public User findUser(User newuser){
+
+        return users.contains(newuser) ? users.get(users.indexOf(newuser)) : null;
+    }
+
     public boolean userExists(User newUser) {
-        return users.contains(newUser) ? true : false;
+
+        return users.contains(newUser);
+
     }
 }

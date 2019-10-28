@@ -10,6 +10,7 @@ import java.util.stream.Collectors;
 
 public class HotelsService {
     private HotelsStore hotelsStore = HotelsStore.getInstance();
+    private static User current_user;
 
     public List<Hotel> getHotels() {
         return hotelsStore.getHotels();
@@ -70,7 +71,13 @@ public class HotelsService {
 
     public boolean loginIsSuccesful(String userLogin, String userPassword) {
         User newUser = new User(userLogin,userPassword);
-        return hotelsStore.userExists(newUser) ? true : false;
+        current_user = hotelsStore.findUser(newUser);
+
+        return current_user!=null;
     }
+    public String getUsersLogin() {
+         return current_user.getLogin();
+    }
+
 
 }

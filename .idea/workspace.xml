@@ -1,20 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="">
+    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="Login process reworked">
+      <change afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/RegistrationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/AbstractUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/AbstractUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/HotelChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/HotelChain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/UserAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/AdminMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/UserMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/sqlTest/StockExchangeDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/sqlTest/StockExchangeDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserGuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserGuest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/AdminMenu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/UserMenu.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,9 +69,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,6 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1571123402483</updated>
       <workItem from="1571123406716" duration="24479000" />
+      <workItem from="1571918610623" duration="839000" />
+      <workItem from="1571921295255" duration="9577000" />
+      <workItem from="1572256241055" duration="2464000" />
     </task>
     <servers />
   </component>
@@ -100,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login process reworked" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login process reworked" />
   </component>
 </project>

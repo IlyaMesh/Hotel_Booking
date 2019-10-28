@@ -19,18 +19,7 @@ public class UserGuest extends User {
         return guestName;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        UserGuest userGuest = (UserGuest) o;
-        return Objects.equals(guestName, userGuest.guestName);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(guestName);
-    }
 
     @Override
     public String toString() {
