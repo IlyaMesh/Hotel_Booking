@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Booking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/postgresql-42.2.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/sqlTest/StockExchangeDB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/InMemoryHotelsStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sqlTest/StockExchangeDB.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hotel_Booking.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hotelsDB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/DBHotelsStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/InMemoryHotelsStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/DBHotelsStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +153,7 @@
       <workItem from="1572348358695" duration="544000" />
       <workItem from="1572965792645" duration="5016000" />
       <workItem from="1573129407154" duration="8663000" />
-      <workItem from="1573548503904" duration="5544000" />
+      <workItem from="1573548503904" duration="6104000" />
     </task>
     <task id="LOCAL-00001" summary="Login process reworked">
       <created>1572261932076</created>
@@ -168,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572261932076</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="database added">
+      <created>1573554365373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573554365374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login process reworked" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login process reworked" />
+    <MESSAGE value="database added" />
+    <option name="LAST_COMMIT_MESSAGE" value="database added" />
   </component>
 </project>
