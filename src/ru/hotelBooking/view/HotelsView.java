@@ -2,7 +2,10 @@ package ru.hotelBooking.view;
 
 import ru.hotelBooking.service.HotelsService;
 
+import java.util.Scanner;
+
 public class HotelsView {
+    private Scanner in = new Scanner(System.in);
     private HotelsService hotelsService = new HotelsService();
     //private UserMenu userMenu = new UserMenu();
 
@@ -13,7 +16,8 @@ public class HotelsView {
 
     public void showRooms(long hotelID){
         System.out.println(String.format("-----Rooms in Hotel=%d: ------",hotelID));
-        hotelsService.getRoomsById(hotelID).forEach(System.out::println);
+        //hotelsService.getRoomsById(hotelID).forEach(System.out::println);
+        hotelsService.getRooms().forEach(System.out::println);
     }
     public void showStaff(long hotelId){
         System.out.println(String.format("----Staff in Hotel=%d: -------",hotelId));
@@ -34,12 +38,12 @@ public class HotelsView {
     }
 
     public void fireTheEmployee(long emplId) {
-        if(hotelsService.fireTheEmployee(emplId)){
-            System.out.println(String.format("Employee with id=%d has been fired",emplId));
-        }
-        else {
-            System.out.println(String.format("Employee with id=%d doesn't exist", emplId));
-        }
+//        if(hotelsService.fireTheEmployee(emplId)){
+//            System.out.println(String.format("Employee with id=%d has been fired",emplId));
+//        }
+//        else {
+//            System.out.println(String.format("Employee with id=%d doesn't exist", emplId));
+//        }
     }
 
     public void showUsers() {
@@ -57,5 +61,15 @@ public class HotelsView {
 
     public String getCurrentUserName() {
          return hotelsService.getUsersLogin();
+    }
+
+    public void addHotel() {
+        System.out.println("Enter the chain hotel id");
+        int chainHotelId = in.nextInt();
+        System.out.println("Enter hotel's address");
+        String address = in.nextLine();
+        System.out.println("Enter hotel's rating");
+        Integer rating = in.nextInt();
+        hotelsService.addHotel((long)chainHotelId,address,rating);
     }
 }

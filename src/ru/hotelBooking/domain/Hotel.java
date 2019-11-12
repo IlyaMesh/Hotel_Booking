@@ -7,6 +7,10 @@ public class Hotel {
     private String adress;
     private Integer rating;
 
+    public Hotel(Long hotel_id) {
+        this.hotel_id = hotel_id;
+    }
+
     public Hotel(Long hotel_id, Long chain_hotel_id, String adress, Integer rating) {
         this.hotel_id = hotel_id;
         this.chain_hotel_id = chain_hotel_id;

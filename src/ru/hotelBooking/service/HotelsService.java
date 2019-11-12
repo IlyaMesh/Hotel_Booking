@@ -3,13 +3,14 @@ package ru.hotelBooking.service;
 import ru.hotelBooking.domain.*;
 import ru.hotelBooking.domain.Staff;
 import ru.hotelBooking.persistence.HotelsStore;
+import ru.hotelBooking.persistence.DBHotelsStore;
 
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class HotelsService {
-    private HotelsStore hotelsStore = HotelsStore.getInstance();
+    private HotelsStore hotelsStore = new DBHotelsStore();
     private static User current_user;
 
     public List<Hotel> getHotels() {
@@ -22,6 +23,10 @@ public class HotelsService {
 
     public List<Room> getRooms() {
         return hotelsStore.getRooms();
+    }
+
+    public void addHotel(long hotelChainId, String adress, Integer rating){
+        hotelsStore.addHotel(hotelChainId,adress,rating);
     }
 
     public List<Room> getRoomsById(long hotelId) {
@@ -53,17 +58,17 @@ public class HotelsService {
         Room testRoom = new Room(roomId);
         if (getRooms().contains(testRoom)) {
             Booking booking = new Booking(11L, roomId, guestId, new Date(), new Date());
-            hotelsStore.AddBooking(booking);
+            //categoryStore.AddBooking(booking);
             return true;
         }
         return false;
 
     }
 
-    public boolean fireTheEmployee(long emplId) {
-        Staff employee = new Staff(emplId);
-        return hotelsStore.removeEmployee(employee);
-    }
+//    public boolean fireTheEmployee(long emplId) {
+//        Staff employee = new Staff(emplId);
+//        return categoryStore.removeEmployee(employee);
+//    }
 
     public List<User> getUsers() {
         return hotelsStore.getUsers();
@@ -71,7 +76,7 @@ public class HotelsService {
 
     public boolean loginIsSuccesful(String userLogin, String userPassword) {
         User newUser = new User(userLogin,userPassword);
-        current_user = hotelsStore.findUser(newUser);
+        //current_user = categoryStore.findUser(newUser);
 
         return current_user!=null;
     }

@@ -9,14 +9,14 @@ public class MainMenu {
     private RegistrationForm registrationForm = new RegistrationForm();
 
     public void run(){
-        Boolean isSighnedAs = registrationForm.login();
-        if(!isSighnedAs){
-            System.out.println("Something went wrong. Try again.");
-            registrationForm.login();
-        }
-        else{
+//        Boolean isSighnedAs = registrationForm.login();
+//        if(!isSighnedAs){
+//            System.out.println("Something went wrong. Try again.");
+//            registrationForm.login();
+//        }
+//        else{
             while(true){
-                System.out.println(String.format("Sighned in as %s",hotelsView.getCurrentUserName()));
+                //System.out.println(String.format("Sighned in as %s",hotelsView.getCurrentUserName()));
                 System.out.println("-----Menu: -----");
                 System.out.println("1. Show hotels (Enter 1)");
                 System.out.println("2. Show rooms (Enter 2)");
@@ -25,6 +25,7 @@ public class MainMenu {
                 System.out.println("5 Book a room (Enter 5)");
                 System.out.println("6 Fire an employee (Enter 6)");
                 System.out.println("7 Show users(Enter 7)");
+                System.out.println("8 Add hotels(Enter 8)");
                 System.out.println("10. Exit (Enter 10)");
 
                 int menuitem = in.nextInt();
@@ -66,10 +67,14 @@ public class MainMenu {
                         hotelsView.showUsers();
                         break;
 
+                    case 8:
+                        hotelsView.addHotel();
+                        break;
+
                     case 10:
                         System.exit(0);
                 }
-            }
+           // }
         }
     }
 }

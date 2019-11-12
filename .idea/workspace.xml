@@ -1,34 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="Login process reworked">
-      <change afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/RegistrationForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/AbstractUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/postgresql-42.2.8.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/HotelChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/HotelChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/UserAdmin.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/AdminMenu.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/UserMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/sqlTest/StockExchangeDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Booking/sqlTest/StockExchangeDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserGuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserGuest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/sqlTest/StockExchangeDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/InMemoryHotelsStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/AdminMenu.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/UserMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sqlTest/StockExchangeDB.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +35,36 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="hotels: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,23 +72,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1SEKdan42zjIwO91RwSQGummrG1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql&#10;sqlite" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
@@ -112,6 +132,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,8 +155,20 @@
       <workItem from="1571123406716" duration="24479000" />
       <workItem from="1571918610623" duration="839000" />
       <workItem from="1571921295255" duration="9577000" />
-      <workItem from="1572256241055" duration="2464000" />
+      <workItem from="1572256241055" duration="5066000" />
+      <workItem from="1572348358695" duration="544000" />
+      <workItem from="1572965792645" duration="5016000" />
+      <workItem from="1573129407154" duration="8663000" />
+      <workItem from="1573548503904" duration="5544000" />
     </task>
+    <task id="LOCAL-00001" summary="Login process reworked">
+      <created>1572261932076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572261932076</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

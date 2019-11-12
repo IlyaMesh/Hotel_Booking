@@ -2,13 +2,11 @@ package ru.hotelBooking.persistence;
 
 import ru.hotelBooking.domain.*;
 
-import java.security.Guard;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
-public class HotelsStore {
+public class InMemoryHotelsStore implements HotelsStore {
     private static final int HOTELS_LIST_SIZE = 10;
     private static final int ROOMS_LIST_SIZE = 50;
     private static final int STAFF_LIST_SIZE = 40;
@@ -19,21 +17,21 @@ public class HotelsStore {
     //CLIENT_ID is set by a const temporarily
     private static final int CLIENT_ID = 1;
 
-    private static HotelsStore instance;
+    private static InMemoryHotelsStore instance;
     private List<Hotel> hotels = new ArrayList<>();
     private List<Room> rooms = new ArrayList<>();
     private List<Staff> staff = new ArrayList<>();
     private List<Booking> bookings = new ArrayList<>();
     private List<User> users = new ArrayList<>();
 
-    public static HotelsStore getInstance(){
+    public static InMemoryHotelsStore getInstance(){
         if(instance == null){
-            instance = new HotelsStore();
+            instance = new InMemoryHotelsStore();
         }
         return instance;
     }
 
-    private HotelsStore(){
+    private InMemoryHotelsStore(){
         populateHotels();
         populateRooms();
         populateBookings();
@@ -104,6 +102,11 @@ public class HotelsStore {
     public boolean userExists(User newUser) {
 
         return users.contains(newUser);
+
+    }
+
+    @Override
+    public void addHotel(long chainHotelId, String adress, Integer rating) {
 
     }
 }
