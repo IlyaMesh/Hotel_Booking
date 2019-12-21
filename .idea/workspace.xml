@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Hotel_Booking.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotelsDB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/DBHotelsStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/InMemoryHotelsStore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/DBHotelsStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" afterDir="false" />
+    <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="all for the second att">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Booking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelsDB" beforeDir="false" afterPath="$PROJECT_DIR$/hotelsDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/META-INF/Booking.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/HotelChain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/UserGuest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/DBHotelsStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/InMemoryHotelsStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/RegistrationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Booking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Hotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/HotelChain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Staff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserGuest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/DBHotelsStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/InMemoryHotelsStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/RegistrationForm.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +79,7 @@
         <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="hotels: table" type="3d80ac25:SqliteImplModel$Table" />
+        <item name="staff: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -60,6 +89,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -73,9 +103,21 @@
       </set>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1SEKdan42zjIwO91RwSQGummrG1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql&#10;sqlite" />
@@ -94,25 +136,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.hotelBooking.Main" />
-      <module name="Booking" />
+      <option name="MAIN_CLASS_NAME" value="ru.java.HotelBooking.Main" />
+      <module name="core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.hotelBooking.*" />
+          <option name="PATTERN" value="ru.java.HotelBooking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +156,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Booking_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Booking:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Booking_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Hotel_Booking" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="46659" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Booking:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -127,13 +240,15 @@
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -153,7 +268,19 @@
       <workItem from="1572348358695" duration="544000" />
       <workItem from="1572965792645" duration="5016000" />
       <workItem from="1573129407154" duration="8663000" />
-      <workItem from="1573548503904" duration="6104000" />
+      <workItem from="1573548503904" duration="6442000" />
+      <workItem from="1574150337770" duration="3294000" />
+      <workItem from="1574679147508" duration="267000" />
+      <workItem from="1574679780327" duration="6521000" />
+      <workItem from="1574687202727" duration="50000" />
+      <workItem from="1574693506436" duration="2168000" />
+      <workItem from="1574710706062" duration="33395000" />
+      <workItem from="1575916885827" duration="1018000" />
+      <workItem from="1575991313080" duration="6247000" />
+      <workItem from="1576134002768" duration="1039000" />
+      <workItem from="1576135171753" duration="2995000" />
+      <workItem from="1576144834502" duration="4960000" />
+      <workItem from="1576943990028" duration="2292000" />
     </task>
     <task id="LOCAL-00001" summary="Login process reworked">
       <created>1572261932076</created>
@@ -169,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573554365374</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="database updated">
+      <created>1573554949942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573554949942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +325,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login process reworked" />
     <MESSAGE value="database added" />
-    <option name="LAST_COMMIT_MESSAGE" value="database added" />
+    <MESSAGE value="database updated" />
+    <MESSAGE value="all for the second att" />
+    <option name="LAST_COMMIT_MESSAGE" value="all for the second att" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="274" y="65" width="802" height="678" key="#Project_Structure" timestamp="1576944312834">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="274" y="65" width="802" height="678" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1576944312834" />
+    <state x="365" y="148" width="612" height="513" key="FileChooserDialogImpl" timestamp="1576945682865">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="365" y="148" width="612" height="513" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1576945682865" />
+    <state width="1310" height="170" key="GridCell.Tab.0.bottom" timestamp="1576946315435">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1310" height="170" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1576946315435" />
+    <state width="1310" height="170" key="GridCell.Tab.0.center" timestamp="1576946315431">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1310" height="170" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1576946315431" />
+    <state width="1310" height="170" key="GridCell.Tab.0.left" timestamp="1576946315431">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1310" height="170" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1576946315431" />
+    <state width="1310" height="170" key="GridCell.Tab.0.right" timestamp="1576946315435">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1310" height="170" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1576946315435" />
+    <state x="162" y="40" width="1026" height="728" key="SettingsEditor" timestamp="1576945697415">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="162" y="40" width="1026" height="728" key="SettingsEditor/0.40.1366.728@0.40.1366.728" timestamp="1576945697415" />
+    <state x="54" y="40" width="1241" height="728" key="new project wizard" timestamp="1576946370025">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="54" y="40" width="1241" height="728" key="new project wizard/0.40.1366.728@0.40.1366.728" timestamp="1576946370025" />
   </component>
 </project>
