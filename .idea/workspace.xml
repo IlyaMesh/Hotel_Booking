@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="all for the second att">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Booking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Booking.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelsDB" beforeDir="false" afterPath="$PROJECT_DIR$/hotelsDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/META-INF/Booking.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Booking.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Hotel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/HotelChain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Room.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/Staff.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/domain/UserGuest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/DBHotelsStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/HotelsStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/persistence/InMemoryHotelsStore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/service/HotelsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/HotelsView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/MainMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Booking/ru/hotelBooking/view/RegistrationForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Booking.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Hotel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/HotelChain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Room.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/Staff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/domain/UserGuest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/DBHotelsStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/HotelsStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/persistence/InMemoryHotelsStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/service/HotelsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/HotelsView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/MainMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/hotelBooking/view/RegistrationForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +242,7 @@
       <workItem from="1576134002768" duration="1039000" />
       <workItem from="1576135171753" duration="2995000" />
       <workItem from="1576144834502" duration="4960000" />
-      <workItem from="1576943990028" duration="2292000" />
+      <workItem from="1576943990028" duration="2978000" />
     </task>
     <task id="LOCAL-00001" summary="Login process reworked">
       <created>1572261932076</created>
@@ -338,22 +300,22 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="365" y="148" width="612" height="513" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1576945682865" />
-    <state width="1310" height="170" key="GridCell.Tab.0.bottom" timestamp="1576946315435">
+    <state width="1310" height="170" key="GridCell.Tab.0.bottom" timestamp="1576947737613">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1576946315435" />
-    <state width="1310" height="170" key="GridCell.Tab.0.center" timestamp="1576946315431">
+    <state width="1310" height="170" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1576947737613" />
+    <state width="1310" height="170" key="GridCell.Tab.0.center" timestamp="1576947737612">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1576946315431" />
-    <state width="1310" height="170" key="GridCell.Tab.0.left" timestamp="1576946315431">
+    <state width="1310" height="170" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1576947737612" />
+    <state width="1310" height="170" key="GridCell.Tab.0.left" timestamp="1576947737612">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1576946315431" />
-    <state width="1310" height="170" key="GridCell.Tab.0.right" timestamp="1576946315435">
+    <state width="1310" height="170" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1576947737612" />
+    <state width="1310" height="170" key="GridCell.Tab.0.right" timestamp="1576947737613">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1576946315435" />
+    <state width="1310" height="170" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1576947737613" />
     <state x="162" y="40" width="1026" height="728" key="SettingsEditor" timestamp="1576945697415">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
