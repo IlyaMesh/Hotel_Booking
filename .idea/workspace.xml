@@ -2,7 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="all for the second att">
-      <change beforePath="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/HotelChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/HotelChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/domain/UserGuest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/UserGuest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/persistance/DBHotelsStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/persistance/ExecuteQueries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/persistance/HotelsStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/persistance/InMemoryHotelsStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/service/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/service/HotelsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/view/HotelsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/view/HotelsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/ru/java/HotelBooking/view/RegistrationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/view/RegistrationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/core.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/core.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/Booking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/Hotel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/HotelChain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/Staff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/domain/UserGuest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/persistance/DBHotelsStore$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/persistance/DBHotelsStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/persistance/ExecuteQueries$Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/persistance/ExecuteQueries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/persistance/HotelsStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/persistance/InMemoryHotelsStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/service/DemoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/service/HotelsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/view/HotelsView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/view/MainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/test-classes/ru/java/HotelBooking/view/RegistrationForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +97,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,31 +133,53 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/sqlite-jdbc-3.27.2.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/test/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.java.HotelBooking" />
+      <recent name="ru.java.HotelBooking.service" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/test/java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/main" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.java.HotelBooking.Main" />
       <module name="core" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.java.HotelBooking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HotelBooking.Main" />
+      <module name="core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HotelBooking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,9 +263,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -242,7 +313,7 @@
       <workItem from="1576134002768" duration="1039000" />
       <workItem from="1576135171753" duration="2995000" />
       <workItem from="1576144834502" duration="4960000" />
-      <workItem from="1576943990028" duration="2978000" />
+      <workItem from="1576943990028" duration="5290000" />
     </task>
     <task id="LOCAL-00001" summary="Login process reworked">
       <created>1572261932076</created>
@@ -292,30 +363,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="all for the second att" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="274" y="65" width="802" height="678" key="#Project_Structure" timestamp="1576944312834">
+    <state x="274" y="65" width="802" height="678" key="#Project_Structure" timestamp="1576948978054">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="274" y="65" width="802" height="678" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1576944312834" />
+    <state x="274" y="65" width="802" height="678" key="#Project_Structure/0.40.1366.728@0.40.1366.728" timestamp="1576948978054" />
+    <state x="412" y="182" width="526" height="444" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576949169845">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="412" y="182" width="526" height="444" key="#com.intellij.ide.util.PackageChooserDialog/0.40.1366.728@0.40.1366.728" timestamp="1576949169845" />
+    <state x="348" y="332" width="733" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1576949494986">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="348" y="332" width="733" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.40.1366.728@0.40.1366.728" timestamp="1576949494986" />
+    <state x="467" y="265" width="423" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576949317373">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="467" y="265" width="423" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.40.1366.728@0.40.1366.728" timestamp="1576949317373" />
+    <state x="467" y="286" width="423" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1576949496468">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="467" y="286" width="423" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.40.1366.728@0.40.1366.728" timestamp="1576949496468" />
     <state x="365" y="148" width="612" height="513" key="FileChooserDialogImpl" timestamp="1576945682865">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="365" y="148" width="612" height="513" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1576945682865" />
-    <state width="1310" height="170" key="GridCell.Tab.0.bottom" timestamp="1576947737613">
+    <state width="1310" height="170" key="GridCell.Tab.0.bottom" timestamp="1576949637874">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1576947737613" />
-    <state width="1310" height="170" key="GridCell.Tab.0.center" timestamp="1576947737612">
+    <state width="1310" height="170" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1576949637874" />
+    <state width="1310" height="170" key="GridCell.Tab.0.center" timestamp="1576949637873">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1576947737612" />
-    <state width="1310" height="170" key="GridCell.Tab.0.left" timestamp="1576947737612">
+    <state width="1310" height="170" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1576949637873" />
+    <state width="1310" height="170" key="GridCell.Tab.0.left" timestamp="1576949637872">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1576947737612" />
-    <state width="1310" height="170" key="GridCell.Tab.0.right" timestamp="1576947737613">
+    <state width="1310" height="170" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1576949637872" />
+    <state width="1310" height="170" key="GridCell.Tab.0.right" timestamp="1576949637873">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1310" height="170" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1576947737613" />
+    <state width="1310" height="170" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1576949637873" />
     <state x="162" y="40" width="1026" height="728" key="SettingsEditor" timestamp="1576945697415">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
