@@ -38,6 +38,8 @@ public class HotelsService {
         return hotelsStore.getAll(Room.class);
     }
 
+    public List<HotelChain> getChains(){return hotelsStore.getAll(HotelChain.class);}
+
     public void addHotel(long hotelChainId, String adress, Integer rating) throws IllegalAccessException {
         Hotel hotel = new Hotel(hotelChainId,adress,rating);
         hotelsStore.add(hotel);

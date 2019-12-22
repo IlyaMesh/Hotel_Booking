@@ -9,19 +9,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Hotel Booking</title>
 </head>
 <body>
-<div class="container">
+<div class="container" >
     <!-- As a heading -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <a class="navbar-brand" href="${pageContext.request.contextPath}/"><img alt="Brand" width="120" height="70" src="${pageContext.request.contextPath}/images/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="${pageContext.request.contextPath}/">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="${pageContext.request.contextPath}/chains">Brands</a>
                 <a class="nav-item nav-link" href="${pageContext.request.contextPath}/demo">Hotels</a>
             </div>
         </div>
