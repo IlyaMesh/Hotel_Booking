@@ -12,14 +12,24 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class HotelsService {
-    private HotelsStore hotelsStore = new InMemoryHotelsStore();
+    //private HotelsStore hotelsStore = new InMemoryHotelsStore();
+    InMemoryHotelsStore hotelsStore = InMemoryHotelsStore.getInstance();
     private static User current_user;
 
     public List<Hotel> getHotels() {
-        return hotelsStore.getAll(Hotel.class);
+        //return hotelsStore.getAll(Hotel.class);
+        return hotelsStore.getHotels();
 
     }
-
+    public Hotel getHotelById(Long id){
+        List<Hotel> hotels = getHotels();
+        for(Hotel h:hotels){
+            if(h.getHotel_id()==id){
+                return h;
+            }
+        }
+        return null;
+    }
     public List<Staff> getStaff() {
         return hotelsStore.getAll(Staff.class);
     }

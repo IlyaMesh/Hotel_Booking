@@ -6,7 +6,7 @@
 
     <ul class="list-group">
         <c:forEach items="${demos}" var="demo">
-            <a href="${pageContext.request.contextPath}/demo?idx=${demo.index}" class="list-group-item list-group-item">${demo.adress}</a>
+            <a href="${pageContext.request.contextPath}/demo?idx=${demo.hotel_id}" class="list-group-item list-group-item">${demo.adress}</a>
         </c:forEach>
     </ul>
 </tg:base>
