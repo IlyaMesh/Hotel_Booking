@@ -54,10 +54,8 @@ public class InMemoryHotelsStore implements HotelsStore {
         return false;
     }
 
-
-
     @Override
-    public <T> T getById(Long id) {
+    public <T> T getById(T t, Long id) {
         return null;
     }
 

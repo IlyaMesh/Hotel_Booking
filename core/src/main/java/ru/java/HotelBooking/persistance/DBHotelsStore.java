@@ -117,7 +117,7 @@ public class DBHotelsStore implements HotelsStore {
     }
 
     @Override
-    public Object getById(Long id) {
+    public <T> T getById(T t,Long id) {
         return null;
     }
 

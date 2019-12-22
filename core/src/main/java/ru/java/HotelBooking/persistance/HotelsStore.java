@@ -10,7 +10,7 @@ public interface HotelsStore {
 
     <T> boolean removeById(T t, long id) throws IllegalAccessException;
 
-    <T> T getById(Long id);
+    <T> T getById(T t,Long id);
 
     <T> boolean add(T t) throws IllegalAccessException;
 

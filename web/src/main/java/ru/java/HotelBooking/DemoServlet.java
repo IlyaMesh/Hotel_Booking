@@ -26,11 +26,12 @@ public class DemoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String idx = req.getParameter("idx");
         if (idx != null) {
-        req.setAttribute("demo", hotelsService.getHotelById(Long.valueOf(idx)));//здесь было отображение одного отеля
+        req.setAttribute("demo", hotelsService.getHotelById(Long.valueOf(idx)));
             req.getRequestDispatcher("/demo.jsp").forward(req, resp);
        } else {
-           req.setAttribute("demos", hotelsService.getHotels());
+            req.setAttribute("demos", hotelsService.getHotels());
             req.getRequestDispatcher("/demos.jsp").forward(req, resp); }
     }
+    //TODO selecting hotels in the main page
     //TODO form for hotels adding, and deleting hotels. Hotel's link should return list of rooms and staff
 }

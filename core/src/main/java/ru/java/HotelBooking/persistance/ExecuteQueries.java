@@ -9,7 +9,7 @@ import java.sql.Statement;
 import java.util.List;
 
 public class ExecuteQueries {
-    private static final String URL = "jdbc:sqlite:./hotelsDB";
+    private static final String URL = "jdbc:sqlite:/home/ilya/Hotel_Booking/hotelsDB";
     private static final String USER = "sa";
     private static final String PASS = "sa";
 

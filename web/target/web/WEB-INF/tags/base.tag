@@ -21,8 +21,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="${pageContext.request.contextPath}/">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="${pageContext.request.contextPath}/demo">Demo</a>
+                <a class="nav-item nav-link active" href="${pageContext.request.contextPath}/">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="${pageContext.request.contextPath}/demo">Hotels</a>
             </div>
         </div>
     </nav>
