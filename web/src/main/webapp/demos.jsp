@@ -1,3 +1,4 @@
+<%@page isELIgnored="false" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="tg" tagdir="/WEB-INF/tags" %>
 <tg:base>
@@ -5,7 +6,7 @@
 
     <ul class="list-group">
         <c:forEach items="${demos}" var="demo">
-            <a href="${pageContext.request.contextPath}/demo?idx=${demo.index}" class="list-group-item list-group-item">${demo.name}</a>
+            <a href="${pageContext.request.contextPath}/demo?idx=${demo.index}" class="list-group-item list-group-item">${demo.adress}</a>
         </c:forEach>
     </ul>
 </tg:base>

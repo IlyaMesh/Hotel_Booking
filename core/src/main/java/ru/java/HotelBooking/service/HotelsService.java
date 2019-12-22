@@ -4,6 +4,7 @@ import ru.java.HotelBooking.domain.*;
 import ru.java.HotelBooking.domain.Staff;
 import ru.java.HotelBooking.persistance.HotelsStore;
 import ru.java.HotelBooking.persistance.DBHotelsStore;
+import ru.java.HotelBooking.persistance.InMemoryHotelsStore;
 
 import java.util.Collections;
 import java.util.Date;
@@ -11,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class HotelsService {
-    private HotelsStore hotelsStore = new DBHotelsStore();
+    private HotelsStore hotelsStore = new InMemoryHotelsStore();
     private static User current_user;
 
     public List<Hotel> getHotels() {

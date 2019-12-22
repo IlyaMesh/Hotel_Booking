@@ -31,7 +31,7 @@ public class InMemoryHotelsStore implements HotelsStore {
         return instance;
     }
 
-    private InMemoryHotelsStore(){
+    public InMemoryHotelsStore(){
         populateHotels();
         populateRooms();
         populateBookings();
