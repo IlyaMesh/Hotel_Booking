@@ -26,11 +26,13 @@ public class DemoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String hotel_id = req.getParameter("hotel_id");
         if (hotel_id != null) {
-        req.setAttribute("hotel", hotelsService.getHotelById(Long.valueOf(hotel_id)));
+            Hotel hotelById = hotelsService.getHotelById(Long.valueOf(hotel_id));
+            req.setAttribute("hotel", hotelById);
             req.getRequestDispatcher("/hotel.jsp").forward(req, resp);
-       } else {
+        } else {
             req.setAttribute("hotels", hotelsService.getHotels());
-            req.getRequestDispatcher("/hotels.jsp").forward(req, resp); }
+            req.getRequestDispatcher("/hotels.jsp").forward(req, resp);
+        }
     }
     //TODO selecting hotels in the main page
     //TODO form for hotels adding, and deleting hotels. Hotel's link should return list of rooms and staff

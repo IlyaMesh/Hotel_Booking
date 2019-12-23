@@ -6,6 +6,8 @@ import ru.java.HotelBooking.persistance.HotelsStore;
 import ru.java.HotelBooking.persistance.DBHotelsStore;
 import ru.java.HotelBooking.persistance.InMemoryHotelsStore;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
@@ -24,7 +26,7 @@ public class HotelsService {
     public Hotel getHotelById(Long id){
         List<Hotel> hotels = getHotels();
         for(Hotel h:hotels){
-            if(h.getHotel_id()==id){
+            if(h.getHotel_id().equals(id)){
                 return h;
             }
         }
@@ -40,7 +42,19 @@ public class HotelsService {
 
     public List<HotelChain> getChains(){return hotelsStore.getAll(HotelChain.class);}
 
-    public void addHotel(long hotelChainId, String adress, Integer rating) throws IllegalAccessException {
+    public List<Hotel> getHotelsById(Long id){
+        List<Hotel> hotels = getHotels();
+        List<Hotel> res = new ArrayList<>();
+        for(Hotel h:hotels){
+            Long hotelchain_id = h.getHotelchain_id();
+            if(hotelchain_id.equals(id)){
+                res.add(h);
+            }
+        }
+        return res;
+    }
+
+    public void addHotel(long hotelChainId, String adress, Float rating) throws IllegalAccessException {
         Hotel hotel = new Hotel(hotelChainId,adress,rating);
         hotelsStore.add(hotel);
     }

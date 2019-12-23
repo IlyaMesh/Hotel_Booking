@@ -70,7 +70,7 @@ public class InMemoryHotelsStore implements HotelsStore {
 
     private void populateHotels(){
         for (int i=1;i<=HOTELS_LIST_SIZE;i++){
-            Hotel hotel = new Hotel((long) i,HOTEL_CHAIN_ID,"Adress"+i,(int)(Math.random()*5 + 1));
+            Hotel hotel = new Hotel((long) i,HOTEL_CHAIN_ID,"Adress"+i,(float)(Math.random()*5 + 1));
             hotels.add(hotel);
         }
     }

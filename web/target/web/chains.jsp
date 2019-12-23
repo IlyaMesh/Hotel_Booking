@@ -16,7 +16,7 @@
                 <table class="table">
                     <tr>
                         <td rowspan="2" width="150"><img src="${pageContext.request.contextPath}/images/${chain.hotel_chain_id}.jpg" width="102" height="93"></td>
-                        <td><a href="${pageContext.request.contextPath}/chain?chain_id=${chain.hotel_chain_id}" class="list-group-item list-group-item">${chain.name}</a></td>
+                        <td><a href="${pageContext.request.contextPath}/chains?chain_id=${chain.hotel_chain_id}" class="list-group-item list-group-item">${chain.name}</a></td>
                     </tr>
                     <tr>
                         <td> ${chain.country}</td>

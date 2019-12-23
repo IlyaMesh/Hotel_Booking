@@ -2,11 +2,12 @@ package ru.java.HotelBooking.domain;
 
 public class Hotel{
 
-    //TODO modify hotel class
     private Long hotel_id;
-    private Long chain_hotel_id;
-    private String adress;
-    private Integer rating;
+    private Long hotelchain_id;
+    private String name;
+    private String country;
+    private String city;
+    private Float rating;
 
     public Hotel(){}
 
@@ -14,16 +15,16 @@ public class Hotel{
         this.hotel_id = hotel_id;
     }
 
-    public Hotel(Long chain_hotel_id, String adress, Integer rating) {
-        this.chain_hotel_id = chain_hotel_id;
-        this.adress = adress;
+    public Hotel(Long hotelchain_id, String city, Float rating) {
+        this.hotelchain_id = hotelchain_id;
+        this.city = city;
         this.rating = rating;
     }
 
-    public Hotel(Long hotel_id, Long chain_hotel_id, String adress, Integer rating) {
+    public Hotel(Long hotel_id, Long hotelchain_id, String city, Float rating) {
         this.hotel_id = hotel_id;
-        this.chain_hotel_id = chain_hotel_id;
-        this.adress = adress;
+        this.hotelchain_id = hotelchain_id;
+        this.city = city;
         this.rating = rating;
     }
 
@@ -35,36 +36,52 @@ public class Hotel{
         this.hotel_id = hotel_id;
     }
 
-    public Long getChain_hotel_id() {
-        return chain_hotel_id;
+    public Long getHotelchain_id() {
+        return hotelchain_id;
     }
 
-    public void setChain_hotel_id(Long chain_hotel_id) {
-        this.chain_hotel_id = chain_hotel_id;
+    public void setHotelchain_id(Long hotelchain_id) {
+        this.hotelchain_id = hotelchain_id;
     }
 
-    public Integer getRating() {
+    public Float getRating() {
         return rating;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setCity(String city) {
+        this.city = city;
     }
 
-    public String getAdress() {
-        return adress;
+    public String getCity() {
+        return city;
     }
 
-    public void setRating(Integer rating) {
+    public void setRating(Float rating) {
         this.rating = rating;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     @Override
     public String toString() {
         return "Hotel{" +
                 "hotel_id=" + hotel_id +
-                ", chain_hotel_id=" + chain_hotel_id +
-                ", adress='" + adress + '\'' +
+                ", chain_hotel_id=" + hotelchain_id +
+                ", adress='" + city + '\'' +
                 ", rating=" + rating +
                 '}';
     }

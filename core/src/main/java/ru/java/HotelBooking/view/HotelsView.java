@@ -70,7 +70,7 @@ public class HotelsView {
         System.out.println("Enter hotel's address");
         String address = in.next();
         System.out.println("Enter hotel's rating");
-        Integer rating = in.nextInt();
+        Float rating = in.nextFloat();
         hotelsService.addHotel((long) chainHotelId, address, rating);
     }
 }

@@ -1,5 +1,6 @@
 package ru.java.HotelBooking;
 
+import ru.java.HotelBooking.domain.Hotel;
 import ru.java.HotelBooking.domain.HotelChain;
 import ru.java.HotelBooking.service.HotelsService;
 
@@ -24,10 +25,15 @@ public class MainServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        List<HotelChain> chains = hotelsService.getChains();
-        req.setAttribute("chains", chains);
-        req.getRequestDispatcher("/chains.jsp").forward(req, resp);
+        String hotelchain_id = req.getParameter("chain_id");
+        if (hotelchain_id != null) {
+            List<Hotel> chainsById = hotelsService.getHotelsById(Long.valueOf(hotelchain_id));
+            req.setAttribute("hotels", chainsById);
+            req.getRequestDispatcher("/chain.jsp").forward(req, resp);
+        } else {
+            req.setAttribute("chains", hotelsService.getChains());
+            req.getRequestDispatcher("/chains.jsp").forward(req, resp);
+        }
     }
 
 }
