@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(urlPatterns = "/demo")
+@WebServlet(urlPatterns = "/hotel")
 public class DemoServlet extends HttpServlet {
     private HotelsService hotelsService;
 
@@ -24,13 +24,13 @@ public class DemoServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String idx = req.getParameter("idx");
-        if (idx != null) {
-        req.setAttribute("demo", hotelsService.getHotelById(Long.valueOf(idx)));
-            req.getRequestDispatcher("/demo.jsp").forward(req, resp);
+        String hotel_id = req.getParameter("hotel_id");
+        if (hotel_id != null) {
+        req.setAttribute("hotel", hotelsService.getHotelById(Long.valueOf(hotel_id)));
+            req.getRequestDispatcher("/hotel.jsp").forward(req, resp);
        } else {
-            req.setAttribute("demos", hotelsService.getHotels());
-            req.getRequestDispatcher("/demos.jsp").forward(req, resp); }
+            req.setAttribute("hotels", hotelsService.getHotels());
+            req.getRequestDispatcher("/hotels.jsp").forward(req, resp); }
     }
     //TODO selecting hotels in the main page
     //TODO form for hotels adding, and deleting hotels. Hotel's link should return list of rooms and staff

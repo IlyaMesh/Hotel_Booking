@@ -8,16 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="all for the second att">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/HotelChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/HotelChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/domain/HotelChain.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/domain/HotelChain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/service/HotelsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/service/HotelsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotelsDB" beforeDir="false" afterPath="$PROJECT_DIR$/hotelsDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/DemoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/DemoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/tags/base.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/tags/base.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/demo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/hotel.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/demos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/hotels.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/ru/java/HotelBooking/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/ru/java/HotelBooking/DemoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/ru/java/HotelBooking/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/ru/java/HotelBooking/DemoServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/tags/base.tag" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/tags/base.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/demo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web/demos.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +56,13 @@
         <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="hotel: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
         <item name="hotelchain: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
@@ -75,7 +82,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/web/src/main/webapp/demos.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/web/src/main/webapp/hotels.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -263,12 +270,17 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:hotelsDB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:hotelsDB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7847970b" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@77fd680a" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -308,6 +320,8 @@
       <workItem from="1576144834502" duration="4960000" />
       <workItem from="1576943990028" duration="8040000" />
       <workItem from="1577000717630" duration="26724000" />
+      <workItem from="1577080145081" duration="1823000" />
+      <workItem from="1577103082576" duration="1328000" />
     </task>
     <task id="LOCAL-00001" summary="Login process reworked">
       <created>1572261932076</created>
@@ -397,54 +411,54 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="365" y="148" width="612" height="513" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1576945682865" />
-    <state width="1320" height="169" key="GridCell.Tab.0.bottom" timestamp="1577052012136">
+    <state width="903" height="169" key="GridCell.Tab.0.bottom" timestamp="1577104433240">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1320" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577052012136" />
-    <state width="1320" height="169" key="GridCell.Tab.0.center" timestamp="1577052012135">
+    <state width="903" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577104433240" />
+    <state width="903" height="169" key="GridCell.Tab.0.center" timestamp="1577104433237">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1320" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1577052012135" />
-    <state width="1320" height="169" key="GridCell.Tab.0.left" timestamp="1577052012134">
+    <state width="903" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1577104433237" />
+    <state width="903" height="169" key="GridCell.Tab.0.left" timestamp="1577104433236">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1320" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1577052012134" />
-    <state width="1320" height="169" key="GridCell.Tab.0.right" timestamp="1577052012135">
+    <state width="903" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1577104433236" />
+    <state width="903" height="169" key="GridCell.Tab.0.right" timestamp="1577104433238">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1320" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1577052012135" />
-    <state width="903" height="169" key="GridCell.Tab.1.bottom" timestamp="1577052011876">
+    <state width="903" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1577104433238" />
+    <state width="903" height="169" key="GridCell.Tab.1.bottom" timestamp="1577104433242">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577052011876" />
-    <state width="903" height="169" key="GridCell.Tab.1.center" timestamp="1577052011875">
+    <state width="903" height="169" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577104433242" />
+    <state width="903" height="169" key="GridCell.Tab.1.center" timestamp="1577104433241">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1577052011875" />
-    <state width="903" height="169" key="GridCell.Tab.1.left" timestamp="1577052011874">
+    <state width="903" height="169" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1577104433241" />
+    <state width="903" height="169" key="GridCell.Tab.1.left" timestamp="1577104433241">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1577052011874" />
-    <state width="903" height="169" key="GridCell.Tab.1.right" timestamp="1577052011876">
+    <state width="903" height="169" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1577104433241" />
+    <state width="903" height="169" key="GridCell.Tab.1.right" timestamp="1577104433242">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1577052011876" />
-    <state width="903" height="169" key="GridCell.Tab.2.bottom" timestamp="1577052011878">
+    <state width="903" height="169" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1577104433242" />
+    <state width="903" height="169" key="GridCell.Tab.2.bottom" timestamp="1577104433244">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.2.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577052011878" />
-    <state width="903" height="169" key="GridCell.Tab.2.center" timestamp="1577052011877">
+    <state width="903" height="169" key="GridCell.Tab.2.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577104433244" />
+    <state width="903" height="169" key="GridCell.Tab.2.center" timestamp="1577104433243">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.2.center/0.40.1366.728@0.40.1366.728" timestamp="1577052011877" />
-    <state width="903" height="169" key="GridCell.Tab.2.left" timestamp="1577052011877">
+    <state width="903" height="169" key="GridCell.Tab.2.center/0.40.1366.728@0.40.1366.728" timestamp="1577104433243" />
+    <state width="903" height="169" key="GridCell.Tab.2.left" timestamp="1577104433243">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.2.left/0.40.1366.728@0.40.1366.728" timestamp="1577052011877" />
-    <state width="903" height="169" key="GridCell.Tab.2.right" timestamp="1577052011878">
+    <state width="903" height="169" key="GridCell.Tab.2.left/0.40.1366.728@0.40.1366.728" timestamp="1577104433243" />
+    <state width="903" height="169" key="GridCell.Tab.2.right" timestamp="1577104433244">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="903" height="169" key="GridCell.Tab.2.right/0.40.1366.728@0.40.1366.728" timestamp="1577052011878" />
+    <state width="903" height="169" key="GridCell.Tab.2.right/0.40.1366.728@0.40.1366.728" timestamp="1577104433244" />
     <state width="903" height="169" key="GridCell.Tab.3.bottom" timestamp="1577048764059">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -477,16 +491,6 @@
           <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/InMemoryHotelsStore.java</url>
           <line>34</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/MainServlet.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/MainServlet.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/InMemoryHotelsStore.java</url>

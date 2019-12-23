@@ -2,6 +2,7 @@ package ru.java.HotelBooking.domain;
 
 public class Hotel{
 
+    //TODO modify hotel class
     private Long hotel_id;
     private Long chain_hotel_id;
     private String adress;

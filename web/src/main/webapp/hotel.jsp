@@ -4,9 +4,9 @@
 <tg:base>
     <div class="card">
         <div class="card-body">
-            <h5 class="card-title">${demo.adress}</h5>
-            <p class="card-text">${demo.rating}</p>
-            <a href="${pageContext.request.contextPath}/demo" class="btn btn-secondary">Back</a>
+            <h5 class="card-title">${hotel.adress}</h5>
+            <p class="card-text">${hotel.rating}</p>
+            <a href="${pageContext.request.contextPath}/hotel" class="btn btn-secondary">Back</a>
         </div>
     </div>
 </tg:base>
