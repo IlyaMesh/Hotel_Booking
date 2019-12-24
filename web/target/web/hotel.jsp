@@ -8,9 +8,9 @@
             <p class="card-text">${hotel.country}</p>
             <p class="card-text">${hotel.city}</p>
             <p class="card-text">${hotel.rating}</p>
+            <a href="${pageContext.request.contextPath}/staff?hotel_id=${hotel.hotel_id}" class="btn btn-default">Staff</a>
+            <a href="${pageContext.request.contextPath}/rooms?hotel_id=${hotel.hotel_id}" class="btn btn-default">Rooms</a>
             <a href="${pageContext.request.contextPath}/hotel" class="btn btn-secondary">Back</a>
-            <a href="" class="btn btn-default">Staff</a>
-            <a href="" class="btn btn-default">Rooms</a>
         </div>
     </div>
 </tg:base>

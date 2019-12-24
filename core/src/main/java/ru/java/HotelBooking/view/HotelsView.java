@@ -73,4 +73,6 @@ public class HotelsView {
         Float rating = in.nextFloat();
         hotelsService.addHotel((long) chainHotelId, address, rating);
     }
+
+
 }

@@ -1,6 +1,5 @@
 package ru.java.HotelBooking;
 
-import ru.java.HotelBooking.domain.Staff;
 import ru.java.HotelBooking.service.HotelsService;
 
 import javax.servlet.ServletConfig;
@@ -10,12 +9,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
-
-@WebServlet("/staff")
-public class StaffServlet extends HttpServlet {
-    HotelsService hotelsService;
+@WebServlet("/delete")
+public class DeleteServlet extends HttpServlet {
+    private HotelsService hotelsService;
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        super.doPost(req, resp);
+    }
 
     @Override
     public void init(ServletConfig config) throws ServletException {
@@ -25,9 +26,13 @@ public class StaffServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String hotel_id = req.getParameter("hotel_id");
-        List<Staff> staffById = hotelsService.getStaffById(Long.valueOf(hotel_id));
-        req.setAttribute("staff", staffById);
-        req.getRequestDispatcher("/staff.jsp").forward(req, resp);
+        Long staff_id = Long.valueOf(req.getParameter("staff_id"));
+        try {
+            hotelsService.deleteStaff(staff_id);
+            resp.sendRedirect(req.getContextPath()+"/staff?hotel_id="+"1");
+        } catch (IllegalAccessException e) {
+            getServletContext().getRequestDispatcher("/notfound.jsp").forward(req,resp);
+        }
+
     }
 }

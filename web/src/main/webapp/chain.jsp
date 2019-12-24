@@ -14,9 +14,9 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">${hotel.country}</h5>
-            <p class="card-text">${hotel.name}</p>
+            <p class="card-text">${hotel.city}</p>
 <%--            <a href="${pageContext.request.contextPath}/chains" class="btn btn-secondary">Back</a>--%>
-            <a href="${pageContext.request.contextPath}/hotel?hotel_id=${hotel.hotel_id}" class="list-group-item list-group-item">${hotel.city}</a>
+            <a href="${pageContext.request.contextPath}/hotel?hotel_id=${hotel.hotel_id}" class="list-group-item list-group-item">${hotel.name}</a>
         </div>
     </div>
     </c:forEach>

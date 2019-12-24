@@ -19,6 +19,15 @@ public class Staff {
         this.job_name = job_name;
         this.salary = salary;
     }
+
+    public Staff(Long hotel_id, String first_name, String last_name, String job_name, Integer salary) {
+        this.hotel_id = hotel_id;
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.job_name = job_name;
+        this.salary = salary;
+    }
+
     public Staff(){}
 
     public Staff(long emplId) {

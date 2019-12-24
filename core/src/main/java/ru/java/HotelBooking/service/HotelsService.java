@@ -59,6 +59,16 @@ public class HotelsService {
         hotelsStore.add(hotel);
     }
 
+    public void addStaff(Long hotel_id,String first_name,String last_name,String job_name,Integer salary) throws IllegalAccessException {
+        Staff staff = new Staff(hotel_id,first_name,last_name,job_name,salary);
+        hotelsStore.add(staff);
+    }
+
+    public void deleteStaff(Long staff_id) throws IllegalAccessException {
+        Staff staff = new Staff(staff_id);
+        hotelsStore.removeById(staff,staff_id);
+    }
+
     public List<Room> getRoomsById(long hotelId) {
         return getRooms().stream()
                 .filter(room -> room.getHotel_id() == hotelId)
@@ -70,6 +80,15 @@ public class HotelsService {
                 .filter(staff1 -> staff1.getHotel_id() == hotelId)
                 .collect(Collectors.toList());
 
+    }
+    public Staff getMemberById(long staff_id){
+        List<Staff> staff = getStaff();
+        for(Staff st : staff){
+            if(st.getStaff_id().equals(staff_id)){
+                return st;
+            }
+        }
+        return null;
     }
 
     public List<Booking> getBookings() {
@@ -115,6 +134,20 @@ public class HotelsService {
     }
     public String getUsersLogin() {
          return current_user.getLogin();
+    }
+
+    public boolean updateStaff(Integer staff_id,Long hotel_id,String first_name,String last_name,String job_name,Integer salary){
+        return hotelsStore.updateStaff(staff_id,hotel_id,first_name,last_name,job_name,salary);
+    }
+    public Long getHotelIdByStaffId(Long staff_id){
+        List<Staff> staff = getStaff();
+        for (Staff st:staff
+             ) {
+            if(st.getStaff_id().equals(staff_id)){
+                return st.getHotel_id();
+            }
+        }
+        return null;
     }
 
 

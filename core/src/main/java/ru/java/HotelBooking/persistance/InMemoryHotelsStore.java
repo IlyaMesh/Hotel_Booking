@@ -64,6 +64,20 @@ public class InMemoryHotelsStore implements HotelsStore {
         return false;
     }
 
+    @Override
+    public <T> boolean update(T t, Long id) throws IllegalAccessException {
+        return false;
+    }
+
+    @Override
+    public boolean updateStaff(Integer staff_id, Long hotel_id, String first_name, String last_name, String job_name, Integer salary) {
+        return false;
+    }
+
+    public boolean updatetaff(Integer staff_id, Integer hotel_id, String first_name, String last_name, String job_name, Integer salary) {
+        return false;
+    }
+
     public List<Staff> getStaff() {return staff; }
 
     public List<Booking> getBookings() {return bookings; }

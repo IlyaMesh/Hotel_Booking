@@ -14,6 +14,8 @@ public interface HotelsStore {
 
     <T> boolean add(T t) throws IllegalAccessException;
 
+    <T> boolean update(T t,Long id) throws IllegalAccessException;
+         boolean updateStaff(Integer staff_id,Long hotel_id,String first_name,String last_name,String job_name,Integer salary);
 //    boolean addHotel(long chainHotelId,String adress, Integer rating);
 //    boolean deleteHotel(long id);
 }

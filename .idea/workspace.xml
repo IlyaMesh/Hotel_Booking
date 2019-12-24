@@ -8,27 +8,25 @@
   <component name="ChangeListManager">
     <list default="true" id="dbc3be6d-b8cc-451e-9ee5-ed7503f42584" name="Default Changelist" comment="all for the second att">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/domain/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/DBHotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/DBHotelsStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/HotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/HotelsStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/InMemoryHotelsStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/InMemoryHotelsStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/view/HotelsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/view/HotelsView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/domain/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/domain/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/domain/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/domain/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/persistance/DBHotelsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/persistance/DBHotelsStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/persistance/HotelsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/persistance/HotelsStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/persistance/InMemoryHotelsStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/persistance/InMemoryHotelsStore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/service/HotelsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/service/HotelsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/view/HotelsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/view/HotelsView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/DemoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/DemoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/chains.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/chains.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/hotel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/hotel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/hotels.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/hotels.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/ru/java/HotelBooking/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/ru/java/HotelBooking/DemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/ru/java/HotelBooking/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/ru/java/HotelBooking/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/ru/java/HotelBooking/DemoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/ru/java/HotelBooking/DemoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/ru/java/HotelBooking/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/classes/ru/java/HotelBooking/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/view/MainMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/ru/java/HotelBooking/view/MainMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotelsDB" beforeDir="false" afterPath="$PROJECT_DIR$/hotelsDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/StaffServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/StaffServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/chain.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/chain.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/staff.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/staff.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/WEB-INF/lib/core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web/chains.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/chains.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/web/hotel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/hotel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web/hotels.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web/hotels.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +60,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hotelsDB" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="staff: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -77,8 +68,8 @@
       <list>
         <option value="Interface" />
         <option value="Tag Library Descriptor" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -136,6 +127,12 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/web/src/main" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.java.HotelBooking" />
       <recent name="ru.java.HotelBooking.service" />
@@ -143,11 +140,6 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/src/test/java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/src/main" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/core" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.29">
@@ -278,6 +270,15 @@
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:hotelsDB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:hotelsDB" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3cddb6df" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -319,7 +320,7 @@
       <workItem from="1577080145081" duration="1823000" />
       <workItem from="1577103082576" duration="1328000" />
       <workItem from="1577104975037" duration="77000" />
-      <workItem from="1577119803773" duration="7039000" />
+      <workItem from="1577119803773" duration="27859000" />
     </task>
     <task id="LOCAL-00001" summary="Login process reworked">
       <created>1572261932076</created>
@@ -381,10 +382,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="137" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1366.728@0.40.1366.728" timestamp="1577018224652" />
-    <state x="487" y="116" width="376" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1577128604400">
+    <state x="487" y="116" width="376" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1577175314166">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="487" y="116" width="376" height="576" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1577128604400" />
+    <state x="487" y="116" width="376" height="576" key="#com.intellij.ide.util.MemberChooser/0.40.1366.728@0.40.1366.728" timestamp="1577175314166" />
     <state x="412" y="182" width="526" height="444" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576949169845">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -413,70 +414,70 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="365" y="148" width="612" height="513" key="FileChooserDialogImpl/0.40.1366.728@0.40.1366.728" timestamp="1576945682865" />
-    <state width="991" height="169" key="GridCell.Tab.0.bottom" timestamp="1577128498078">
+    <state width="991" height="169" key="GridCell.Tab.0.bottom" timestamp="1577177355876">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577128498078" />
-    <state width="991" height="169" key="GridCell.Tab.0.center" timestamp="1577128498078">
+    <state width="991" height="169" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577177355876" />
+    <state width="991" height="169" key="GridCell.Tab.0.center" timestamp="1577177355875">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1577128498078" />
-    <state width="991" height="169" key="GridCell.Tab.0.left" timestamp="1577128498078">
+    <state width="991" height="169" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1577177355875" />
+    <state width="991" height="169" key="GridCell.Tab.0.left" timestamp="1577177355875">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1577128498078" />
-    <state width="991" height="169" key="GridCell.Tab.0.right" timestamp="1577128498078">
+    <state width="991" height="169" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1577177355875" />
+    <state width="991" height="169" key="GridCell.Tab.0.right" timestamp="1577177355876">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1577128498078" />
-    <state width="991" height="169" key="GridCell.Tab.1.bottom" timestamp="1577128491708">
+    <state width="991" height="169" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1577177355876" />
+    <state width="991" height="169" key="GridCell.Tab.1.bottom" timestamp="1577177355880">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577128491708" />
-    <state width="991" height="169" key="GridCell.Tab.1.center" timestamp="1577128491708">
+    <state width="991" height="169" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577177355880" />
+    <state width="991" height="169" key="GridCell.Tab.1.center" timestamp="1577177355879">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1577128491708" />
-    <state width="991" height="169" key="GridCell.Tab.1.left" timestamp="1577128491707">
+    <state width="991" height="169" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1577177355879" />
+    <state width="991" height="169" key="GridCell.Tab.1.left" timestamp="1577177355879">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1577128491707" />
-    <state width="991" height="169" key="GridCell.Tab.1.right" timestamp="1577128491708">
+    <state width="991" height="169" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1577177355879" />
+    <state width="991" height="169" key="GridCell.Tab.1.right" timestamp="1577177355880">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1577128491708" />
-    <state width="991" height="169" key="GridCell.Tab.2.bottom" timestamp="1577128491712">
+    <state width="991" height="169" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1577177355880" />
+    <state width="991" height="169" key="GridCell.Tab.2.bottom" timestamp="1577177355878">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.2.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577128491712" />
-    <state width="991" height="169" key="GridCell.Tab.2.center" timestamp="1577128491711">
+    <state width="991" height="169" key="GridCell.Tab.2.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577177355878" />
+    <state width="991" height="169" key="GridCell.Tab.2.center" timestamp="1577177355877">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.2.center/0.40.1366.728@0.40.1366.728" timestamp="1577128491711" />
-    <state width="991" height="169" key="GridCell.Tab.2.left" timestamp="1577128491708">
+    <state width="991" height="169" key="GridCell.Tab.2.center/0.40.1366.728@0.40.1366.728" timestamp="1577177355877" />
+    <state width="991" height="169" key="GridCell.Tab.2.left" timestamp="1577177355877">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.2.left/0.40.1366.728@0.40.1366.728" timestamp="1577128491708" />
-    <state width="991" height="169" key="GridCell.Tab.2.right" timestamp="1577128491711">
+    <state width="991" height="169" key="GridCell.Tab.2.left/0.40.1366.728@0.40.1366.728" timestamp="1577177355877" />
+    <state width="991" height="169" key="GridCell.Tab.2.right" timestamp="1577177355878">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.2.right/0.40.1366.728@0.40.1366.728" timestamp="1577128491711" />
-    <state width="991" height="169" key="GridCell.Tab.3.bottom" timestamp="1577127668142">
+    <state width="991" height="169" key="GridCell.Tab.2.right/0.40.1366.728@0.40.1366.728" timestamp="1577177355878" />
+    <state width="991" height="169" key="GridCell.Tab.3.bottom" timestamp="1577175346992">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.3.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577127668142" />
-    <state width="991" height="169" key="GridCell.Tab.3.center" timestamp="1577127668142">
+    <state width="991" height="169" key="GridCell.Tab.3.bottom/0.40.1366.728@0.40.1366.728" timestamp="1577175346992" />
+    <state width="991" height="169" key="GridCell.Tab.3.center" timestamp="1577175346992">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.3.center/0.40.1366.728@0.40.1366.728" timestamp="1577127668142" />
-    <state width="991" height="169" key="GridCell.Tab.3.left" timestamp="1577127668142">
+    <state width="991" height="169" key="GridCell.Tab.3.center/0.40.1366.728@0.40.1366.728" timestamp="1577175346992" />
+    <state width="991" height="169" key="GridCell.Tab.3.left" timestamp="1577175346991">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.3.left/0.40.1366.728@0.40.1366.728" timestamp="1577127668142" />
-    <state width="991" height="169" key="GridCell.Tab.3.right" timestamp="1577127668142">
+    <state width="991" height="169" key="GridCell.Tab.3.left/0.40.1366.728@0.40.1366.728" timestamp="1577175346991" />
+    <state width="991" height="169" key="GridCell.Tab.3.right" timestamp="1577175346992">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="991" height="169" key="GridCell.Tab.3.right/0.40.1366.728@0.40.1366.728" timestamp="1577127668142" />
+    <state width="991" height="169" key="GridCell.Tab.3.right/0.40.1366.728@0.40.1366.728" timestamp="1577175346992" />
     <state x="162" y="40" width="1026" height="728" key="SettingsEditor" timestamp="1576945697415">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -499,24 +500,109 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="42" />
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/DBHotelsStore.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/DBHotelsStore.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/DBHotelsStore.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/DBHotelsStore.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/ru/java/HotelBooking/EditServlet.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="43" />
+          <line>142</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="44" />
+          <line>143</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="45" />
+          <line>144</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/service/HotelsService.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/core/src/main/java/ru/java/HotelBooking/persistance/InMemoryHotelsStore.java</url>

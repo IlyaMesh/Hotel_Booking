@@ -70,6 +70,7 @@ public class MainMenu {
                     case 8:
                         hotelsView.addHotel();
                         break;
+                    case 9:
 
                     case 10:
                         System.exit(0);
