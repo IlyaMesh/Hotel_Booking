@@ -5,7 +5,7 @@
     <style >
         /* navbar */
         .navbar-default {
-            background-color: #6C3483;
+            background-color: #4C586F;
             border-color: #E7E7E7;
         }
         /* Title */
@@ -85,25 +85,21 @@
 
     <title>Hotel Booking</title>
 </head>
-<body>
-<div class="container" >
+<body style="background-color : #cdc3c1">
     <!-- As a heading -->
-    <nav class="navbar navbar-expand-lg navbar-default nav " >
-        <a class="navbar-brand" href="${pageContext.request.contextPath}/"><img alt="Brand" width="120" height="70" src="${pageContext.request.contextPath}/images/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-default nav navbar-light" style="background-color: #4C5870;" >
+        <a class="navbar-brand" href="${pageContext.request.contextPath}/chains"><img alt="Brand" width="120" height="75" src="${pageContext.request.contextPath}/images/logo.png"></a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="${pageContext.request.contextPath}/">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="${pageContext.request.contextPath}/chains">Brands</a>
-                <a class="nav-item nav-link" href="${pageContext.request.contextPath}/hotel">Hotels</a>
+                <a style="background-color: #cdc3c1; margin: 10px;width: 120px; text-align: center" class="nav-item nav-link" href="${pageContext.request.contextPath}/chains">Brands</a>
+                <a style="background-color: #cdc3c1; margin: 10px;width: 120px; text-align: center" class="nav-item nav-link" href="${pageContext.request.contextPath}/hotel">Hotels</a>
+                <a style="background-color: #cdc3c1; margin: 10px;width: 120px; text-align: center"   class="nav-item nav-link" href="${pageContext.request.contextPath}/info">Info</a>
             </div>
         </div>
     </nav>
-
+    <div class="container" style="background-color: #EBEDEC; margin-top: 35px; margin-bottom: 35px;">
     <jsp:doBody/>
-</div>
+    </div>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -111,4 +107,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+<footer class="footer" style="background-color: #3D3D3B; color: white; position: fixed;bottom: 0;right: 0;left: 0" >
+    <div class="container text-center">
+        <small>Copyright &copy; Website for hotel's booking.</small>
+    </div>
+</footer>
 </html>

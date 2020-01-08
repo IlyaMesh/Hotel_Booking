@@ -34,6 +34,5 @@ public class DemoServlet extends HttpServlet {
             req.getRequestDispatcher("/hotels.jsp").forward(req, resp);
         }
     }
-    //TODO selecting hotels in the main page
-    //TODO form for hotels adding, and deleting hotels. Hotel's link should return list of rooms and staff
+    //TODO Show is room is free for the selected dates on the main page
 }

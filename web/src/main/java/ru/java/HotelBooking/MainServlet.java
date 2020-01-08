@@ -32,7 +32,7 @@ public class MainServlet extends HttpServlet {
             req.getRequestDispatcher("/chain.jsp").forward(req, resp);
         } else {
             req.setAttribute("chains", hotelsService.getChains());
-            req.getRequestDispatcher("/chains.jsp").forward(req, resp);
+            req.getRequestDispatcher("/index.jsp").forward(req, resp);
         }
     }
 

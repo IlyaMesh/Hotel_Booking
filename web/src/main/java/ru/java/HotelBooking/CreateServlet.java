@@ -30,7 +30,7 @@ public class CreateServlet extends HttpServlet {
         Integer salary = Integer.parseInt(req.getParameter("salary"));
         try {
             hotelsService.addStaff(hotel_id,first_name,last_name,job_name,salary);
-            resp.sendRedirect(req.getContextPath()+"/staff?hotel_id="+"1");
+            resp.sendRedirect(req.getContextPath()+"/staff?hotel_id="+hotel_id);
         } catch (IllegalAccessException e) {
            getServletContext().getRequestDispatcher("/create.jsp").forward(req,resp);
         }
